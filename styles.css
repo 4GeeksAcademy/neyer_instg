@@ -1,0 +1,59 @@
+body{
+    background-color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.container{
+    width: 700px;
+    background-color: white;
+    margin: auto;
+}
+header h1{
+    padding: 5px;
+    margin-left: 5px;
+div [id*='publicacion']{
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+}
+}
+.title{
+    display: flex;
+    padding-left: 10px;
+}
+.left {
+    width: 80%;
+    text-align: left;
+    margin: 0;
+    pointer-events: visible;
+    text-decoration: none;
+}
+.rigth{   
+    width: 20%;
+    text-align: right;
+    margin-top: 25px;
+    color: lightslategray;
+}
+
+.rigth span{
+    margin: 10px;
+    padding-top: 10px;
+}
+.photo img{
+    width: 100%;
+}
+.icons{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.likes{
+    padding-left: 10px;
+}
+.comment p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.addComment p{
+    padding-left: 10px;
+    color: lightslategray;
+}
